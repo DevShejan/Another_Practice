@@ -15,3 +15,75 @@
 .div h3{
     text-align: center;
 }
+button{
+    text-align: center;
+    display: inline-block;
+}
+body{
+    background-color: aqua;
+    color: white;
+}
+.div h3:hover{
+    color: red;
+    cursor: pointer;
+}
+input:focus{
+    color: red;
+    background-color: green;
+    width: 200px;
+    transition: 0.5s;
+}
+input{
+    width: 500px;
+    border-radius: 30px;
+}
+button{
+    width: 100px;
+    border-radius: 30px;
+    height: 50px;
+    padding: 5px;
+    margin: 5px;
+    background-color: brown;
+    box-shadow: violet;
+    border: none;
+}
+button:hover{
+    color: purple;
+    background-color: chartreuse;
+    transition: 0.5s;
+    
+}
+button:focus{
+    
+    background-color: red;
+}
+ul li:first-child{
+    color: red;
+}
+ul li:nth-child(2){
+    color: red;
+}
+ul li:nth-child(3){
+    color:red;
+}
+ul li:nth-child(4){
+    color:white;
+}
+ul li:hover:nth-child(4){
+    color: red;
+    cursor: pointer;
+}
+ul li:hover:nth-child(5){
+    color: brown;
+}
+a:visited{
+    color: blue;
+}
+h3::before{
+    content: "Hello ";
+    font-size: 10px;
+}
+p:hover{
+    color: red;
+    cursor: pointer;
+}
